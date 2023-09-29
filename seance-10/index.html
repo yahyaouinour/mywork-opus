@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 300px;
+            height: 300px;
+            border-radius: 58%;
+        }
+
+        @keyframes move {
+            0% {
+                margin-left: 0;
+            }
+
+            50% {
+                transform: scale(1.5);
+                width: 200px;
+                transform: rotateY(90deg);
+            }
+
+          
+        }
+
+        .animation-move {
+            animation-name: move;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: 2;
+            
+          
+        }
+
+        .fade-in {
+            animation-name: fade-in;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box animation-move">
+        <img src="images.jpg">
+    </div>
+    <div class="box fade-in">
+        <img src="images.jpg">
+    </div>
+</body>
+
+</html>

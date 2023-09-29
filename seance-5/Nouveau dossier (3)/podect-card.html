@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+          padding: 0;
+          margin: 0;
+        }
+        .element {
+          width: 400px;
+          height: 400px;
+          background: orange;
+        }
+        .element:hover {
+          background: red;
+          border: 2px solid black;
+        }
+        .element:active {
+          background: blue;
+        }
+        a:active {
+          color: yellow;
+        }
+        .product-card {
+          display: flex;
+          flex-direction: column;
+          width: 33%;
+          padding: 10px 20px 30px 20px;
+          background: rgb(21, 64, 235);
+          align-items: center;
+          gap: 20px;
+          border-radius: 20px;
+        }
+        .product-card img {
+          width: 100%;
+        }
+        .product-card h3 {
+          color: rgb(236, 179, 74);
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          font-size: 50px;
+        }
+        .product-card p {
+          color: white;
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          font-size: 18px;
+        }
+        .product-card button {
+          width: 300px;
+          height: 60px;
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          border-radius: 30px;
+          background: rgb(236, 179, 74);
+          border: none;
+          font-size: 25px;
+          color: rgb(21, 64, 235);
+        }
+        .product-card span {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          font-size: 40px;
+          color: chocolate;
+          font-weight: bold;
+        }
+        .products {
+          display: flex;
+          gap: 40px;
+          margin: 100px 50px;
+        }
+        .product-card:hover {
+          width: 50%;
+          box-shadow: 4px 8px 16px rgb(59, 56, 56);
+        }
+        .product-card button:active {
+          background: rgb(85, 113, 224);
+          color: rgb(237, 162, 24);
+        }
+        .product-card button:hover {
+          cursor: pointer;
+          width: 50%;
+          background-color:chartreuse;
+          
+        }
+        .cart1{
+            width: 60px;
+            background-color: blue;
+        }
+        
+      
+      </style>
+</head>
+<body>
+    <div class="products">
+        <div class="product-card">
+          <img
+            src="korsi.jpg"alt=""
+          />
+          <h3>korsi gaming</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
+            dolores consectetur, fuga amet ducimus, illo iste ipsa possimus dolore
+            aliquid quo ipsum reprehenderit voluptates fugiat consequatur,
+            blanditiis accusantium eaque nisi.
+          </p>
+          <span>300 dt</span>
+          <br>
+          <button >
+            <div class="cart1">
+         <img class="iconcart" src="iconcart.png" alt="">
+          </button>
+        </div>
+        </div>
+        
+        </div>
+      </div>
+</body>
+</html>
+
+
+
+

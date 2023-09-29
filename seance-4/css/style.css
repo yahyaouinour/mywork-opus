@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Segoe";
+  src: url(../fonts/segoeui.TTF);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  box-shadow: 4px 8px 16px gray;
+  font-family: "Segoe";
+  font-size: 20px;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+/*.navbar {
+  padding: 20px 40px;
+  box-shadow: 4px 8px 16px gray;
+  font-family: "Segoe";
+  font-size: 20px;
+}
+
+.navbar ul,
+.navbar ul li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  float: right;
+}
+*/
+
+.landing {
+  height: 95vh;
+  background: url(../img/architect.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landing div {
+  font-size: 50px;
+  font-family: "Segoe";
+  color: white;
+}
+
+.landing .br {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section {
+  margin: 20px;
+  font-family: 'Segoe UI';
+padding: 20px 30px;
+font-size: 9px;
+}
+
+.section hr {
+  margin: 30px 0px;
+}
+.dyar{
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  justify-content: center;
+}
+.dar {
+  width:22%;
+}
+.dar img{
+  width:100%;
+}
+.section{
+  margin: 20px;
+  font-family: 'Segoe UI';
+padding: 20px 30px;
+font-size: 9px;
+}
+.text{
+  font-family: 'Segoe UI';
+  font-size: small;
+  padding: 30px 30px;
+}
+.persons{
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  justify-content: center;
+
+}
+.person{
+  width:22%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+  margin-top: 30px 30px;
+  }
+
+.person img{
+  width:100%;
+}
+.Contact{
+  font-family: 'Segoe UI';
+  font-size:small;
+  padding: 30px 30px;
+margin: 20px;
+font-size: 9px;
+}
+
+
+
+ 
+
+ 

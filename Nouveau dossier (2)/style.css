@@ -1,0 +1,24 @@
+.card{
+    background: cyan;
+    width: 600px;
+    
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 4px 8px 16px rgb(red, rgb(54, 184, 54), blue);
+}
+card-img{
+    width: 50%;
+    border-radius: 40px;
+}
+.card-title{
+color: brown;
+font-size: 40px;
+font-family: 'Courier New';
+}
+cad-description{
+    font-family: 'Courier New';
+}
+.card-icon{
+    width: 50px;
+    margin: 0px 20px;
+}

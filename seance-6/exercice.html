@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height:100vh;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+
+        }
+        .header{
+            grid-area: header;
+        }
+        .sidebar{
+            grid-area : sidebar;
+        }
+        .main{
+            grid-area : main;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header" style="background-color: rgb(28, 105, 19);"></div>
+        <div class="sidebar" style="background-color: blue;"></div>
+        <div class="main" style="background-color: rgb(134, 29, 111);"></div>
+    </div>
+</body>
+</html>

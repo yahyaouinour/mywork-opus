@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="x" />
+    <input type="text" id="y" />
+    
+    <button onclick="add()">+</button>
+    <button onklick="rop()">-</button>
+    <button>*</button>
+    <button>/</button>
+    <h1>resultat=</h1>
+    
+    <span id="resultat"></span>
+</body>
+<script>
+    
+    function add() {
+        ;let inputX = document.getElementById("x")
+        ;let inputy = document.getElementById("y")
+        let res = Number(inputX.value) + Number(inputy.value)
+        let resultat = document.querySelector("#resultat")
+        resultat.innerHTML=res
+
+       }
+       function rop() {
+        ;let inputX = document.getElementById("x")
+        ;let inputy = document.getElementById("y")
+        let res = Number(inputX.value) - Number(inputy.value)
+        let resultat = document.querySelector("#resultat")
+        resultat.innerHTML=res
+       }
+</script>
+</html>
+
